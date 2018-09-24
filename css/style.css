@@ -1,0 +1,48 @@
+header{
+	background-color: #00468c;
+}
+.fa-facebook-square  {
+	color: #fff;
+	font-size: 20px
+}
+.fa-instagram{
+color: #fff;
+font-size: 20px
+}
+
+.fa-youtube-square{
+color: #fff;
+font-size: 20px
+}
+
+
+
+
+.label-azul {
+    font-size: 14px;
+    margin-bottom: 30px;
+    background-color:#08478c;
+    color: #fff;
+}
+.title{
+	color: #0d4882;
+	
+	font-weight: bold;
+}
+.card-img-overlay{
+	margin-top: 150px;
+}
+
+.card-img-overlay h5{
+color: #fff;
+font-weight: bold;
+}
+.btn-default{
+    color: #fff !important;
+    background-color: #fff;
+    border-color: #00468c;
+}
+
+
+
+
