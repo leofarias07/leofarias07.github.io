@@ -44,7 +44,7 @@
 
 <!-- Use any element to open the sidenav -->
     <div class="menu mt-5">
-    <span onclick="openNav()"><i class="fas fa-bars fa-2x">MENU</i></span>
+    <span onclick="openNav()"><i class="fas fa-bars fa-2x"> MENU</i> </span>
     </div>
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 
@@ -374,17 +374,29 @@
 
                 <div class="tv mt-3" style="background-color: #08478c; color: #fff; padding: 10px; font-size: 22px; font-weight: bolder;">TV JG</div>
 
-              <div class="row">
-              <div class="col-md-8 col-12 mt-2">
-                 <iframe width="451" height="282" src="https://www.youtube.com/embed/vg0zfBOKcks" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+         
+            <div class="row">
+              <div class="col-md-8 mt-2">
+               <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+              </div>
+              
               </div>
 
-                <div class="col-md-4 col-12 mt-2">
-                <iframe width="220" height="138" src="https://www.youtube.com/embed/vg0zfBOKcks" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <iframe width="220" height="138" src="https://www.youtube.com/embed/vg0zfBOKcks" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
+               <div class="col-md-4 mt-2">
+               <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+              </div>
+
+                <div class="embed-responsive embed-responsive-16by9 mt-3">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+              </div>
+              
+              </div>
+
+
+              
             </div>
-          
            
            
 

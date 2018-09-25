@@ -114,6 +114,15 @@ font-weight: bold;
     .sidenav a {font-size: 18px;}
 }
 
+@media (min-width: 576px) {
+    .sidenav{
+        text-align: center;
+    }
+    .social{
+        text-align: center;
+    }
+}
+
 
 
 
