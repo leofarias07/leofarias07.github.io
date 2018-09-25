@@ -245,13 +245,13 @@
     <section class="mt-4"><!--Slider Blogs-->
       <div class="container">
         <div class="row">
-            <div class="col-md-12 mb-3">
+            <div class="col-md-12">
               <div style="background-color: #08478c; color: #fff; padding: 15px; font-size: 22px; font-weight: bolder;">Blogs</div>
             </div>
         
           </div>
           <div class="row">
-            
+             <div class="col-md-12">
              <div class="regular slider">
                 <div>
                   <p style="height: 100px; background:#eaeaea;padding: 15px; ">Pré Candidatura de Eduado Sá Avança e novas parcerias são firmadas</p>
@@ -280,6 +280,7 @@
                 </div>
    
 
+              </div>
               </div>
                
             </div>
