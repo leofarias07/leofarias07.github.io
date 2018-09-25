@@ -22,9 +22,7 @@
  
    
 
-    .slider {
-        width: 100%;
-       
+    
     }
 
     .slick-slide {
@@ -567,7 +565,7 @@
   
 
  
-           <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/pirapemas" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=581033898688377&amp;container_width=263&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpirapemas&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"><span style="vertical-align: bottom; width: 400px; height: 197px;"><iframe name="ff0c1e85f10d68" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.9/plugins/page.php?adapt_container_width=true&amp;app_id=581033898688377&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fmp2v3DK3INU.js%3Fversion%3D42%23cb%3Df346c9fc4f37c9c%26domain%3Dpirapemas.com%26origin%3Dhttp%253A%252F%252Fpirapemas.com%252Ff2bacd03341394%26relation%3Dparent.parent&amp;container_width=263&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpirapemas&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 400px; height: 197px;" class=""></iframe></span></div>
+           <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/pirapemas" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=581033898688377&amp;container_width=263&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpirapemas&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"><span style="vertical-align: bottom; width: 300px; height: 197px;"><iframe name="ff0c1e85f10d68" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.9/plugins/page.php?adapt_container_width=true&amp;app_id=581033898688377&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fmp2v3DK3INU.js%3Fversion%3D42%23cb%3Df346c9fc4f37c9c%26domain%3Dpirapemas.com%26origin%3Dhttp%253A%252F%252Fpirapemas.com%252Ff2bacd03341394%26relation%3Dparent.parent&amp;container_width=263&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpirapemas&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 300px; height: 197px;" class=""></iframe></span></div>
 
            </div>
 
