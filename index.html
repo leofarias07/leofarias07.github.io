@@ -7,9 +7,22 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
      <link rel="stylesheet" href="css/style.css">
      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+     <script>
+       /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+     </script>
 
 
 
@@ -21,25 +34,25 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-           <div class="pos-f-t">
-              <div class="collapse" id="navbarToggleExternalContent">
-                <div class="">
-                  <h5 class="text-white h4">Collapsed content</h5>
-                  <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-              </div>
-              <nav class="navbar navbar-dark p-5">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" style="    color: #fff;
-">
-                  <span class="navbar-toggler-icon"></span>MENU
-                </button>
-              </nav>
-            </div>
+        <div id="mySidenav" class="sidenav" style="background: #00468c;">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+        </div>
+
+<!-- Use any element to open the sidenav -->
+    <div class="menu mt-5">
+    <span onclick="openNav()"><i class="fas fa-bars fa-2x">MENU</i></span>
+    </div>
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
       </div>
       <div class="col-md-4 text-center">
         <h1 style="color:#fff" >Portal JG</h1>
       </div>
-   <div class="col-md-4">
+   <div class="col-md-4 p-2" >
     <div class="social p-2" style=" text-align:right;">
         <div class="d-inline-block "><i class="fab fa-facebook-square"></i></div>
         <span class="d-sm-inline-block "><i class="fab fa-instagram"></i></span>
@@ -49,18 +62,15 @@
          
 
   
-  <form name="busca" method="get" action="">
-       <div id="imaginary_container"> 
-                <div class="input-group stylish-input-group">
-                    <input type="text" name="q" class="form-control" style="height: 28px;" placeholder="Digite o que procura">
-                    <span class="input-group-addon" style="height: 26px;padding-top: 0px;padding-bottom: 0px;">
-                        <button type="submit">
-                            <span class="glyphicon glyphicon-search" style="color: #00468c ;"></span>
-                        </button>  
-                    </span>
-                </div>
-            </div> 
-</form>
+  <div class="input-group floar-right">
+   <input class="form-control" type="text" placeholder="O que você procura?" style="width: 200px;
+    float: right;">
+          <span class="input-group-btn">
+              <button class="btn btn-danger" style="background-color:#fff; border-color:#fff; " type="submit">
+                      <span class="glyphicon glyphicon-search" style="color:#d4d4d4"></span>
+                </button>
+          </span>
+      </div>
        
     </div>
 
@@ -73,7 +83,7 @@
     <section><!--Publicidade-->
       <div class="container">
         <div class="row">
-          <div class="col-md-12 mt-4">
+          <div class="col-md-12 text-center mt-4">
             <img src="imagens/banner.jpg" class="img-fluid" alt="">
           </div>
         </div>
@@ -180,7 +190,7 @@
      <section class="mt-4"><!--Publicidade-->
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 text-center">
               <img src="imagens/banner.jpg" class="img-fluid" alt="">
             </div>
           </div>
@@ -308,10 +318,10 @@
                  </div>
                 </div>
 
-             <div style="background-color: #08478c; color: #fff; padding: 10px; font-size: 22px; font-weight: bolder;">TV JG</div>
+             <div class="tv mt-3" style="background-color: #08478c; color: #fff; padding: 10px; font-size: 22px; font-weight: bolder;">TV JG</div>
 
 
-             <div class="tv mt-5">
+             <div class="mt-3">
               <div class="col-md-8">
                 <iframe width="451" height="282" src="https://www.youtube.com/embed/vg0zfBOKcks" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                </div>
@@ -329,18 +339,13 @@
 
       <div class="col-md-4">
    
-      <img src="https://via.placeholder.com/352x355" class="img-fluid" alt="">
+      <img src="https://via.placeholder.com/352x250" class="img-fluid" alt="">
       
       <div class="barra-categoria mt-4" ><!--Ultimas Noticias-->
-                 <div style="background-color: #08478c; color: #fff; padding: 10px; font-size: 22px; font-weight: bolder;">Mais Lidas</div>
-                 
-              
-                  <div style="clear:both; "></div>
-                 <ul class="list-group">
-                 
-                              
-             
-                    <li class="list-group-item" style="background:#6f93b7" >
+          <div style="background-color: #08478c; color: #fff; padding: 10px; font-size: 22px; font-weight: bolder;">Mais Lidas</div>
+              <div style="clear:both; "></div>
+                <ul class="list-group">
+                  <li class="list-group-item" style="background:#6f93b7" >
                       <table>
                         <tbody>
                           <tr>
@@ -388,22 +393,11 @@
                         </tbody>
                       </table>
                     </li>
-                     <li class="list-group-item" style="background:#6f93b7" >
-                      <table>
-                        <tbody>
-                          <tr>
-                            <td><h1 style="margin:0; font-size:56px; color:#fff; font-weight:bold;  margin-right:15px; text-align:center;">05</h1></td>
-                            <td><div style="font-size:18px; "> <a href="" style="color:#fff;">   Homens encapuzados interceptam veículo e matam suspeito de  </a>  </div></td>
-                          </tr>
-                                    
-                                   
-                        </tbody>
-                      </table>
-                    </li>
+                    
                   </ul>
                  
                      <div style="clear:both; "></div>
-      </div><!--Ultimas Noticias-->
+                </div><!--Ultimas Noticias-->
 
     
          
@@ -417,8 +411,8 @@
         <div class="enquete" style="background:#4b7dae"><!--ENQUETE-->
           <h4 class="text-center mt-1" style="color:#fff;margin-top:20px;">O que achou do site?</h4>  
                    
-          <div id="formularioVoto" class="text-center">
-            <form action="" name="enquete" method="post">
+          <div id="" >
+            <form action="" name="enquete" method="post" style="margin-left: 120px;" >
                             
              <div class="radio">
               <label>
@@ -450,7 +444,7 @@
   
 
  
-           <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/pirapemas" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=581033898688377&amp;container_width=263&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpirapemas&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"><span style="vertical-align: bottom; width: 400px; height: 197px;"><iframe name="ff0c1e85f10d68" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.9/plugins/page.php?adapt_container_width=true&amp;app_id=581033898688377&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fmp2v3DK3INU.js%3Fversion%3D42%23cb%3Df346c9fc4f37c9c%26domain%3Dpirapemas.com%26origin%3Dhttp%253A%252F%252Fpirapemas.com%252Ff2bacd03341394%26relation%3Dparent.parent&amp;container_width=263&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpirapemas&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 263px; height: 197px;" class=""></iframe></span></div>
+           <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/pirapemas" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=581033898688377&amp;container_width=263&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpirapemas&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"><span style="vertical-align: bottom; width: 400px; height: 197px;"><iframe name="ff0c1e85f10d68" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.9/plugins/page.php?adapt_container_width=true&amp;app_id=581033898688377&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fmp2v3DK3INU.js%3Fversion%3D42%23cb%3Df346c9fc4f37c9c%26domain%3Dpirapemas.com%26origin%3Dhttp%253A%252F%252Fpirapemas.com%252Ff2bacd03341394%26relation%3Dparent.parent&amp;container_width=263&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpirapemas&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 400px; height: 197px;" class=""></iframe></span></div>
 
            </div>
            
