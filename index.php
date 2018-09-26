@@ -670,8 +670,8 @@
     $(document).on('ready', function() {
  
       $(".regular").slick({
-        prevArrow:"<img class='a-left control-c prev slick-prev' src='imagens/arrow-left.png'>",
-        nextArrow:"<img class='a-right control-c next slick-next' src='imagens/arrow-right.png'>",
+        prevArrow:"<img class='a-left control-c prev slick-prev' src='imagens/setas2.png'>",
+        nextArrow:"<img class='a-right control-c next slick-next' src='imagens/setas1.png'>",
         dots: true,
         infinite: true,
         slidesToShow: 3,
