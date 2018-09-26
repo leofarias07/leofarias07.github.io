@@ -79,6 +79,28 @@
               <a href="#">Services</a>
               <a href="#">Clients</a>
               <a href="#">Contact</a>
+
+    <div class="col-md-4 p-2" >
+    <div class="social p-2 text-center" style=" text-align:right;">
+        <div class="d-inline-block "><i class="fab fa-facebook-square"></i></div>
+        <span class="d-sm-inline-block "><i class="fab fa-instagram"></i></span>
+        <span class="d-md-inline-block "><i class="fab fa-youtube-square"></i></span>
+    </div>
+    
+         
+
+  
+  <div class="input-group floar-right mt-3">
+   <input class="form-control" type="text" placeholder="O que você procura?" style="width: 200px;
+    float: right;">
+          <span class="input-group-btn">
+              <button class="btn btn-danger" style="background-color:#fff; border-color:#fff; " type="submit">
+                      <span class="glyphicon glyphicon-search" style="color:#d4d4d4"></span>
+                </button>
+          </span>
+      </div>
+       
+    </div>
         </div>
 
 <!-- Use any element to open the sidenav -->
@@ -147,7 +169,7 @@
            <div class="col-md-9">    
                 <div class="media-body">
                   <span class="label label-azul">Brasil</span>
-                  <p class="title">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                  <p class="title" style="margin-right: 40px;margin-top: 20px;">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
 
                   </div>
             </div>
@@ -165,7 +187,7 @@
               <img class="card-img" src="imagens/post.jpg" height="300" class="img-fluid" alt="Card image">
               <div class="card-img-overlay">
                <span class="label label-azul">Caxias</span>
-                <h5 class="card-text ">vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla</h5>
+                <h5 class="card-text" style="margin-right:40px;">vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla</h5>
               </div>
             </div>
           </div>
@@ -175,7 +197,7 @@
               <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post2.png" alt="Generic placeholder image">
                 <div class="media-body">
                   <span class="label label-azul">Brasil</span>
-                  <h5 class="" style="">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. </h5>
+                  <h5 class="" style="margin-right: 40px;margin-top: 20px;">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. </h5>
 
                 </div>
             </div>
@@ -183,7 +205,7 @@
               <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post2.png" alt="Generic placeholder image">
                 <div class="media-body">
                   <span class="label label-azul">Brasil</span>
-                  <h5 class="" style="">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. </h5>
+                  <h5 class="" style="margin-right: 40px;margin-top: 20px;">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. </h5>
 
                 </div>
             </div>
@@ -206,7 +228,7 @@
                <div class="media" style="background:#c8d5e6">
               <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post3.png" alt="Generic placeholder image">
                 <div class="media-body">
-                  <span class="label label-azul">Caxias</span>
+                  <span class="label label-azul" style="margin-top:10px">Caxias</span>
                   <h5 class="" style="">Cras sit amet nibh libero, in gravida nulla</h5>
 
                 </div>
@@ -254,37 +276,38 @@
             </div>
         
           </div>
-          <div class="row d-none d-sm-block">
+          <div class="row">
              <div class="col-md-12">
              <div class="regular slider">
                 <div>
                   <p style="height: 100px; background:#eaeaea;padding: 15px; ">Pré Candidatura de Eduado Sá Avança e novas parcerias são firmadas</p>
-                  <span class="label label-slider">Felipe Sousa</span>
+                  <span class="label-slider">Felipe Sousa</span>
                 </div>
                <div>
                   <p style="height:  100px; background:#eaeaea;padding: 15px; ">Pré Candidatura de Eduado Sá Avança e novas parcerias são firmadas</p>
-                  <span class="label label-slider">Felipe Sousa</span>
+                  <span class="label-slider">Felipe Sousa</span>
                 </div>
                
               <div>
                   <p style="height: 100px; background:#eaeaea;padding: 15px; ">Pré Candidatura de Eduado Sá Avança e novas parcerias são firmadas</p>
-                  <span class="label label-slider">Felipe Sousa</span>
+                  <span class="label-slider">Felipe Sousa</span>
                 </div>
               <div>
                   <p style="height: 100px; background:#eaeaea;padding: 15px; ">Pré Candidatura de Eduado Sá Avança e novas parcerias são firmadas</p>
-                  <span class="label label-slider">Felipe Sousa</span>
+                  <span class="label-slider">Felipe Sousa</span>
                 </div>
               <div>
                   <p style="height:  100px; background:#eaeaea;padding: 15px; ">Pré Candidatura de Eduado Sá Avança e novas parcerias são firmadas</p>
-                  <span class="label label-slider">Felipe Sousa</span>
+                  <span class="label-slider">Felipe Sousa</span>
                 </div>
               <div>
-                  <p style="height:  100px; background:#eaeaea;padding: 15px; ">Pré Candidatura de Eduado Sá Avança e novas parcerias são firmadas</p>
-                  <span class="label label-slider">Felipe Sousa</span>
+                  <p style="height:100px; background:#eaeaea;padding: 15px; ">Pré Candidatura de Eduado Sá Avança e novas parcerias são firmadas</p>
+                  <span class="label-slider">Felipe Sousa</span>
                 </div>
    
 
               </div>
+
               </div>
                
             </div>
@@ -334,37 +357,69 @@
     </section><!--Fim sessão Variedades-->
 
 
-    <section class="mt-4"><!--Ultimas Noticias-->
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div style="background-color: #08478c; color: #fff; padding: 10px; font-size: 22px; font-weight: bolder;">Utimas Nociticas
+  <section class="mt-4"><!--Ultimas Noticias-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div style="background-color: #08478c; color: #fff; padding: 10px; font-size: 22px; font-weight: bolder;">Utimas Nociticas
      
+          </div>
+
+
+
+          <div class="row">
+            <div class="col-md-4 mt-4">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post1.jpg" alt="Generic placeholder image">
+              </div>
+              </div>
+
+            <div class="col-md-8">
+              <div class="media-body">
+                <h3 class="title" style="">Cras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravida </h3>
+                <p class="" style="color:#9b9b9b">Cras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravidaCras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravida </p>
+
+                </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 mt-4">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post1.jpg" alt="Generic placeholder image">
+              </div>
+              </div>
+
+            <div class="col-md-8">
+                <div class="media-body">
+                 <h3 class="title" style="">Cras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravida </h3>
+                  <p class="" style="color:#9b9b9b">Cras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravidaCras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravida </p>
+
+                </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 mt-4">
+                <div class="media">
+                  <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post1.jpg" alt="Generic placeholder image">
+                </div>
             </div>
 
+            <div class="col-md-8">
+              <div class="media-body">
+                <h3 class="title" style="">Cras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravida </h3>
+                <p class="" style="color:#9b9b9b">Cras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravidaCras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravida </p>
 
+              </div>
+              </div>
+            </div>
 
             <div class="row">
-              <div class="col-md-4 mt-2">
-                 <div class="media">
-              <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post5.png" alt="Generic placeholder image">
-             </div>
-              </div>
-
-                <div class="col-md-8">
-                <div class="media-body">
-                 <h3 class="title" style="">Cras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravida </h3>
-                  <p class="" style="color:#9b9b9b">Cras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravidaCras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravida </p>
-
+              <div class="col-md-4 mt-4">
+                <div class="media">
+                <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post1.jpg" alt="Generic placeholder image">
                 </div>
-                </div>
-            </div>
-
-               <div class="row">
-              <div class="col-md-4 mt-2">
-                 <div class="media">
-              <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post5.png" alt="Generic placeholder image">
-             </div>
               </div>
 
                 <div class="col-md-8">
@@ -377,41 +432,9 @@
             </div>
 
                  <div class="row">
-              <div class="col-md-4 mt-2">
+              <div class="col-md-4 mt-4">
                  <div class="media">
-              <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post5.png" alt="Generic placeholder image">
-             </div>
-              </div>
-
-                <div class="col-md-8">
-                <div class="media-body">
-                 <h3 class="title" style="">Cras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravida </h3>
-                  <p class="" style="color:#9b9b9b">Cras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravidaCras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravida </p>
-
-                </div>
-                </div>
-            </div>
-
-                 <div class="row">
-              <div class="col-md-4 mt-2">
-                 <div class="media">
-              <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post5.png" alt="Generic placeholder image">
-             </div>
-              </div>
-
-                <div class="col-md-8">
-                <div class="media-body">
-                 <h3 class="title" style="">Cras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravida </h3>
-                  <p class="" style="color:#9b9b9b">Cras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravidaCras sit amet nibh libero, in gravida nullaCras sit amet nibh libero, in gravida </p>
-
-                </div>
-                </div>
-            </div>
-
-                 <div class="row">
-              <div class="col-md-4 mt-2">
-                 <div class="media">
-              <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post5.png" alt="Generic placeholder image">
+              <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post1.jpg" alt="Generic placeholder image">
              </div>
               </div>
 
@@ -430,14 +453,14 @@
 
          
             <div class="row">
-              <div class="col-md-8 mt-2">
+              <div class="col-md-8 mt-4">
                <div class="embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
               </div>
               
               </div>
 
-               <div class="col-md-4 mt-2">
+               <div class="col-md-4 mt-4">
                <div class="embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
               </div>
@@ -458,8 +481,8 @@
           </div>
           
 
-          <div class="col-md-4">
-            <img src="https://via.placeholder.com/352x250" class="img-fluid" alt="">
+    <div class="col-md-4">
+            <img src="https://via.placeholder.com/352x200" class="img-fluid" alt="">
 
 
         <div class="mt-4" ><!--Ultimas Noticias-->
@@ -514,68 +537,60 @@
                         </tbody>
                       </table>
                     </li>
-                          <li class="list-group-item" style="background:#6f93b7" >
-                      <table>
-                        <tbody>
-                          <tr>
-                            <td><h1 style="margin:0; font-size:56px; color:#fff; font-weight:bold;  margin-right:15px; text-align:center;">05</h1></td>
-                            <td><div style="font-size:18px; "> <a href="" style="color:#fff;">   Homens encapuzados interceptam veículo e matam suspeito de  </a>  </div></td>
-                          </tr>
-                                    
-                                   
-                        </tbody>
-                      </table>
-                    </li>
+                 
                     
                   </ul>
                  
                      <div style="clear:both; "></div>
-                </div><!--Mais Lidas-->
+          </div><!--Mais Lidas-->
 
-                 <div style="background-color: #08478c; color: #fff; padding: 10px; font-size: 22px; font-weight: bolder;">ENQUETE</div>
+            <div style="background-color: #08478c; color: #fff; padding:10px; font-size: 22px; font-weight: bolder;">ENQUETE</div>
         
 
-        <div class="enquete" style="background:#4b7dae"><!--ENQUETE-->
-          <h4 class="text-center mt-1" style="color:#fff;margin-top:20px;">O que achou do site?</h4>  
-                   
-          <div id="" >
-            <form action="" name="enquete" method="post" style="margin-left: 120px;" >
-                            
-             <div class="radio">
-              <label>
-              <input type="radio" name="votoId" id="votoId" value="3556" required="">
-              Muito Bom</label>
-              </div>
-
-                              
-             <div class="radio">
+            <div class="enquete p-3" style="background:#4b7dae"><!--ENQUETE-->
+              <h4 class="" style="color:#fff;margin-top:0px;">O que achou do site?</h4>  
+                       
+              <div id="" >
+                <form action="" name="enquete" method="post" style="margin-left: 20px;" >
+                                
+                 <div class="radio">
                   <label>
-                  <input type="radio" name="votoId" id="votoId" value="3557" required="">
-                 Regular</label>
-              </div>
-              <div class="radio">
-                  <label>
-                  <input type="radio" name="votoId" id="votoId" value="3557" required="">
-                 Ruim</label>
-              </div>
+                  <input type="radio" name="votoId" id="votoId" value="3556" required="">
+                  Muito Bom</label>
+                  </div>
 
-            
-                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" style="color: #fff !important;background-color:#00468c;border-color: #00468c;">Salvar Votos</button>
-                </form>       
-            </div>
+                                  
+                 <div class="radio">
+                      <label>
+                      <input type="radio" name="votoId" id="votoId" value="3557" required="">
+                     Regular</label>
+                  </div>
+                  <div class="radio">
+                      <label>
+                      <input type="radio" name="votoId" id="votoId" value="3557" required="">
+                     Ruim</label>
+                  </div>
+
+                
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal" style="color: #fff !important;background-color:#00468c;border-color: #00468c; margin-left: 50px;">Salvar Votos</button>
+                    </form>       
+                </div>
 
             </div><!--FIM ENQUETE-->
+
+            
 
             <div class="facebook"><!--FAN PAGE-->
             <div style="background-color: #08478c; color: #fff; padding: 10px; font-size: 22px; font-weight: bolder; margin-top:10px;">FACEBOOK</div>
   
 
  
-           <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/pirapemas" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=581033898688377&amp;container_width=263&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpirapemas&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"><span style="vertical-align: bottom; width: 300px; height: 197px;"><iframe name="ff0c1e85f10d68" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.9/plugins/page.php?adapt_container_width=true&amp;app_id=581033898688377&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fmp2v3DK3INU.js%3Fversion%3D42%23cb%3Df346c9fc4f37c9c%26domain%3Dpirapemas.com%26origin%3Dhttp%253A%252F%252Fpirapemas.com%252Ff2bacd03341394%26relation%3Dparent.parent&amp;container_width=263&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpirapemas&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 300px; height: 197px;" class=""></iframe></span></div>
+               <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/pirapemas" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=581033898688377&amp;container_width=263&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpirapemas&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"><span style="vertical-align: bottom; width: 300px; height: 197px;"><iframe name="ff0c1e85f10d68" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.9/plugins/page.php?adapt_container_width=true&amp;app_id=581033898688377&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fmp2v3DK3INU.js%3Fversion%3D42%23cb%3Df346c9fc4f37c9c%26domain%3Dpirapemas.com%26origin%3Dhttp%253A%252F%252Fpirapemas.com%252Ff2bacd03341394%26relation%3Dparent.parent&amp;container_width=263&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpirapemas&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 300px; height: 197px;" class=""></iframe></span>
+               </div>
 
-           </div>
+            </div>
 
-          </div>
+    </div>
          
           </div>
 
@@ -640,11 +655,34 @@
     $(document).on('ready', function() {
  
       $(".regular").slick({
+     
         dots: true,
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 3,
+        responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+
       });
+  
    
     });
 </script>
