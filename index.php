@@ -485,7 +485,7 @@
           
 
     <div class="col-md-4">
-            <img src="https://via.placeholder.com/352x200" class="img-fluid" alt="">
+            <img src="https://via.placeholder.com/352x255" class="img-fluid" alt="">
 
 
         <div class="mt-4" ><!--Ultimas Noticias-->
