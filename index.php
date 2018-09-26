@@ -368,7 +368,7 @@
 
 
           <div class="row">
-            <div class="col-md-4 mt-4">
+            <div class="col-md-4 mt-3">
               <div class="media">
                 <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post1.jpg" alt="Generic placeholder image">
               </div>
@@ -382,9 +382,10 @@
                 </div>
             </div>
           </div>
+          <hr>
 
           <div class="row">
-            <div class="col-md-4 mt-4">
+            <div class="col-md-4 mt-3">
               <div class="media">
                 <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post1.jpg" alt="Generic placeholder image">
               </div>
@@ -398,9 +399,9 @@
                 </div>
             </div>
           </div>
-
+            <hr>
           <div class="row">
-            <div class="col-md-4 mt-4">
+            <div class="col-md-4 mt-2">
                 <div class="media">
                   <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post1.jpg" alt="Generic placeholder image">
                 </div>
@@ -414,9 +415,9 @@
               </div>
               </div>
             </div>
-
+              <hr>
             <div class="row">
-              <div class="col-md-4 mt-4">
+              <div class="col-md-4 mt-2">
                 <div class="media">
                 <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post1.jpg" alt="Generic placeholder image">
                 </div>
@@ -430,9 +431,10 @@
                 </div>
                 </div>
             </div>
+            <hr>
 
                  <div class="row">
-              <div class="col-md-4 mt-4">
+              <div class="col-md-4 mt-2">
                  <div class="media">
               <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post1.jpg" alt="Generic placeholder image">
              </div>
@@ -446,6 +448,7 @@
                 </div>
                 </div>
             </div>
+
 
 
 
@@ -530,6 +533,18 @@
                         <tbody>
                           <tr>
                             <td><h1 style="margin:0; font-size:56px; color:#fff; font-weight:bold;  margin-right:15px; text-align:center;">04</h1></td>
+                            <td><div style="font-size:18px; "> <a href="" style="color:#fff;">   Homens encapuzados interceptam veículo e matam suspeito de  </a>  </div></td>
+                          </tr>
+                                    
+                                   
+                        </tbody>
+                      </table>
+                    </li>
+                       <li class="list-group-item" style="background:#6f93b7" >
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td><h1 style="margin:0; font-size:56px; color:#fff; font-weight:bold;  margin-right:15px; text-align:center;">05</h1></td>
                             <td><div style="font-size:18px; "> <a href="" style="color:#fff;">   Homens encapuzados interceptam veículo e matam suspeito de  </a>  </div></td>
                           </tr>
                                     
