@@ -80,7 +80,7 @@
               <a href="#">Clients</a>
               <a href="#">Contact</a>
 
-    <div class="col-md-4 p-2" >
+    <div class="col-md-4 p-2 d-block d-sm-none" >
     <div class="social p-2 text-center" style=" text-align:right;">
         <div class="d-inline-block "><i class="fab fa-facebook-square"></i></div>
         <span class="d-sm-inline-block "><i class="fab fa-instagram"></i></span>
