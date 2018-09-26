@@ -169,7 +169,7 @@
            <div class="col-md-9">    
                 <div class="media-body">
                   <span class="label label-azul">Brasil</span>
-                  <p class="title" style="margin-right: 40px;margin-top: 20px;">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                  <h2 class="title" style="margin-right: 40px;margin-top: 20px;font-weight: bold;">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollici</h2>
 
                   </div>
             </div>
@@ -187,7 +187,7 @@
               <img class="card-img" src="imagens/post.jpg" height="300" class="img-fluid" alt="Card image">
               <div class="card-img-overlay">
                <span class="label label-azul">Caxias</span>
-                <h5 class="card-text" style="margin-right:40px;">vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla</h5>
+                <h4 class="card-text" style="margin-right:40px;">vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla</h4>
               </div>
             </div>
           </div>
@@ -197,7 +197,7 @@
               <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post2.png" alt="Generic placeholder image">
                 <div class="media-body">
                   <span class="label label-azul">Brasil</span>
-                  <h5 class="" style="margin-right: 40px;margin-top: 20px;">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. </h5>
+                  <h4 class="" style="margin-right: 40px;margin-top: 20px;">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. </h4>
 
                 </div>
             </div>
@@ -205,7 +205,7 @@
               <img class="d-flex align-self-center mr-3 img-fluid" src="imagens/post2.png" alt="Generic placeholder image">
                 <div class="media-body">
                   <span class="label label-azul">Brasil</span>
-                  <h5 class="" style="margin-right: 40px;margin-top: 20px;">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. </h5>
+                  <h4 class="" style="margin-right: 40px;margin-top: 20px;">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. </h4>
 
                 </div>
             </div>
@@ -361,7 +361,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <div style="background-color: #08478c; color: #fff; padding: 10px; font-size: 22px; font-weight: bolder;">Utimas Nociticas
+          <div style="background-color: #08478c; color: #fff; padding: 10px; font-size: 22px; font-weight: bolder;">Últimas Nocíticas
      
           </div>
 
