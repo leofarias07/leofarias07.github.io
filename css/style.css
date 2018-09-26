@@ -47,7 +47,7 @@ font-size: 20px
 }
 .label-slider {
     font-size: 14px;
-   
+    margin-bottom:0px;
     background-color:#08478c;
     color: #fff;
 }
